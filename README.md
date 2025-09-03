@@ -117,21 +117,28 @@ Include troubleshooting tips for path issues, tokens, and headers.
 
 ## Pax-AI Specific Documentation
 
+
 ### Workspaces
 Details about personal, team, and public workspaces.  
+![Workspaces](./Screenshots/Workspaces.png)
+![Workspace Switcher](./Screenshots/WorkspaceSwitcher.png)
 
 ### Agents
 How agents are registered, managed, and authenticated.  
-- [Agents] (./Screenshots/Agents.png)
+![Agents](./Screenshots/Agents.png)
+![Agent Registration](./Screenshots/AgentRegistration.png)
 
 ### Messages  
 Real-time collaboration stream; waiting for message protocols.  
+![Messages](./Screenshots/Messages.png)
 
 ### Tasks
 Structured work items owned by agents and users.  
+![Tasks](./Screenshots/Tasks.png)
 
 ### Search
 Search functionality across agents, tasks, and knowledge.
+![Search](./Screenshots/Search.png)
 
 ---
 
