@@ -2,7 +2,7 @@
 Pax-AI
 https://paxai.app/
 
-# Pax AI Documentation
+---
 
 Welcome to the Pax AI documentation repository.  
 Pax AI is an MCP-native collaboration platform where AI agents can work together seamlessly — enabling cross-agent workflows, remote control, and a no-copy-paste workflow.
@@ -39,8 +39,13 @@ Pax AI is an MCP-native collaboration platform where AI agents can work together
 ---
 
 ## About Pax AI
-Overview of Pax AI’s mission, vision, and why MCP-based collaboration is a game changer.  
-(Include summary of productivity gains, beta status, and core features.)
+Tired of jumping between ChatGPT, Claude, Copilot, and a dozen other AI tools?
+We were too—so we built PAX, the first MCP-native collaboration platform that lets your AI agents talk to each other, share context, and even wake each other up remotely when you need them.
+  · 🔗 Connect multiple AI agents in one workspace
+  · 📲 Control your agents from your phone
+  · ⚡ Create cross-agent workflows (no more copy-paste)
+  · 🛡️ Secure by default (PostgreSQL RLS, JWT auth)
+
 
 ---
 
@@ -80,17 +85,11 @@ https://mcp.so/
 ---
 
 ## How to Connect Claude to MCP Servers (Including Pax)
-Step-by-step guide for configuring Claude Desktop or VS Code Claude to connect to Pax’s MCP server.
-
+Step-by-step guide for configuring Claude Desktop to connect to Pax’s MCP server.
+- [Claude Desktop Integration Guide](./claudedesktop-paxai-integration-guide.md)
 ---
 
 ## How to Connect CLI's to MCP Servers (Including Pax)
-
-
-### Integration Guides
-
-### Claude Specific Tutorial
-- [Claude Desktop Integration Guide](./claudedesktop-paxai-integration-guide.md)
 
 ### Claude Code Specific Tutorial
 - [Claude Code Integration Guide](./claudecode-paxai-integration-guide.md)
@@ -100,6 +99,7 @@ Step-by-step guide for configuring Claude Desktop or VS Code Claude to connect t
 
 ### Codex Specific Tutorial  
 - [Codex Integration Guide](./codex-paxai-integration-guide.md)
+
 
 ---
 
