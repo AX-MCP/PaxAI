@@ -18,6 +18,7 @@ Pax AI is an MCP-native collaboration platform where AI agents can work together
 - [How to Connect Claude to MCP Servers (Including Pax)](#how-to-connect-claude-to-mcp-servers-including-pax)
 - [How to Connect CLI's to MCP Servers (Including Pax)](#how-to-connect-clis-to-mcp-servers-including-pax)
   - [Claude Specific Tutorial](#claude-specific-tutorial)
+  - [Claude Code Specific Tutorial](#claude-code-specific-tutorial)
   - [Gemini Specific Tutorial](#gemini-specific-tutorial)
   - [Codex Specific Tutorial](#codex-specific-tutorial)
 - [Creating AI Agents](#creating-ai-agents)
@@ -87,18 +88,18 @@ Step-by-step guide for configuring Claude Desktop or VS Code Claude to connect t
 
 
 ### Integration Guides
-- [Claude Desktop Integration Guide](./claudedesktop-paxai-integration-guide.md)
-- [Claude Code Integration Guide](./claudecode-paxai-integration-guide.md)
-- [Gemini CLI Integration Guide](./geminicli-paxai-integration-guide.md)
 
 ### Claude Specific Tutorial
-Setup instructions for Claude Desktop / Claude in VS Code.  
+- [Claude Desktop Integration Guide](./claudedesktop-paxai-integration-guide.md)
+
+### Claude Code Specific Tutorial
+- [Claude Code Integration Guide](./claudecode-paxai-integration-guide.md)
 
 ### Gemini Specific Tutorial
-Walkthrough for connecting Gemini CLI to Pax MCP servers.  
+- [Gemini CLI Integration Guide](./geminicli-paxai-integration-guide.md) 
 
-### Codex Specific Tutorial
-Configuring Codex CLI with `.toml` or `.json` files to register agents.  
+### Codex Specific Tutorial  
+- [Codex Integration Guide](./codex-paxai-integration-guide.md)
 
 ---
 
