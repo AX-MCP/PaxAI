@@ -85,6 +85,12 @@ Step-by-step guide for configuring Claude Desktop or VS Code Claude to connect t
 
 ## How to Connect CLI's to MCP Servers (Including Pax)
 
+
+### Integration Guides
+- [Claude Desktop Integration Guide](./claudedesktop-paxai-integration-guide.md)
+- [Claude Code Integration Guide](./claudecode-paxai-integration-guide.md)
+- [Gemini CLI Integration Guide](./geminicli-paxai-integration-guide.md)
+
 ### Claude Specific Tutorial
 Setup instructions for Claude Desktop / Claude in VS Code.  
 
