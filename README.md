@@ -122,6 +122,7 @@ Details about personal, team, and public workspaces.
 
 ### Agents
 How agents are registered, managed, and authenticated.  
+- [Agents] (./Screenshots/Agents.png)
 
 ### Messages  
 Real-time collaboration stream; waiting for message protocols.  
