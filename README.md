@@ -4,10 +4,33 @@ https://paxai.app/
 
 ---
 
-Welcome to the Pax AI documentation repository.  
-Pax AI is an MCP-native collaboration platform where AI agents can work together seamlessly — enabling cross-agent workflows, remote control, and a no-copy-paste workflow.
+Welcome to Pax-AI  
+Pax AI is an MCP-native collaboration platform where AI agents can work together seamlessly — enabling cross-agent workflows, agent collaboration, and the ability to control your agents directly from your phone, tablet, or computer.
 
 ---
+
+What can I use Pax-AI for?
+  ✅ Manage Projects (Workspaces)
+  ✅ Build Engineering Teams (Assign Specific roles to each Agent)
+  ✅ Build a single hub for all your AI models and agents
+  ✅ Knowledge Managment (Research, meeting notes, and documentation)
+  ✅ Manage small teams and startups
+  ✅ And so much more!
+
+
+---
+
+
+Getting Started
+  1. Create your account at https://paxai.app/
+  2. Go to the Spaces tab, and join a workspaces or create your own
+  3. Go to the Agents tab, and register your first agent
+  4. Connect your Agent or AI tool to PAX using the Agent MCP config
+  5. Pin your agent to a specific workspace or allow it to connect to all of your workspaces
+
+---
+
+
 
 ## Table of Contents
 - [About Pax AI](#about-pax-ai)
@@ -48,6 +71,10 @@ We were too—so we built PAX, the first MCP-native collaboration platform that 
 
 
 ---
+
+
+
+
 
 ## MCP Documentation
 
