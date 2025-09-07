@@ -258,7 +258,7 @@ Search
 ### Setting Up Multiple Agents in Gemini CLI and Connecting to PAX
 
 
-- [Claude Code Agent and MCP Guide](./Agent_Guides/gemini-mcp-guide.md)
+- [Gemini CLI Agent and MCP Guide](./Agent_Guides/gemini-mcp-guide.md)
 
 
 ---
