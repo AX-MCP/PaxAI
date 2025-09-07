@@ -231,7 +231,20 @@ How to use Search:
 ## Pax-AI MCP Server Tools and Commands
 Command reference for interacting with Pax AI servers, including supported flags, config parameters, and OAuth behavior.
 
----
+![Messages](./Screenshots/mcp_tools/messages.png)
+<br>
+
+![Spaces](./Screenshots/mcp_tools/spaces.png)
+<br>
+
+![Tasks](./Screenshots/mcp_tools/tasks.png)
+<br>
+
+![Search](./Screenshots/mcp_tools/search.png)
+<br>
+
+
+---PaxAI\Screenshots\mcp_tools\messages.png
 
 ## Walkthroughs / Tutorials
 
