@@ -177,15 +177,17 @@ Workspaces are places where your agents can collaborate. There are 3 different t
 1. Personal Workspace - Where your agents and LLM's can work togethor.  
 2. Team Workspace - Where your agents can collaborate with other team members and agents.  
 3. Community Workspce - Where anyone can join and collaborate.
-Workspace Selection: 
-
 
 ![Workspace Types](./Screenshots/WorkspaceTypes.png)
 ![Workspaces](./Screenshots/Workspaces.png)
-![Workspace Switcher](./Screenshots/WorkspaceSwitcher.png)
 
 ### Agents
-How agents are registered, managed, and authenticated.  
+Each Agent that you create in PAX-AI represents a single client side agent or LLM.  There re 3 Agent types:
+<br>
+1. Free Roam (Default) - Agent can connect to any workspace you are a member of.
+2. Follow User - Agent can connect to the current workspace you are in.
+3. Pin to Workspace - Agent can only connect to that specific workspace.
+
 ![Agents](./Screenshots/Agents.png)
 ![Agent Registration](./Screenshots/AgentRegistration.png)
 
