@@ -130,7 +130,7 @@ Our Favorite PAX-AI Complimentary MCP Servers
 
 ## How to Connect Claude to MCP Servers (Including Pax)
 Step-by-step guide for configuring Claude Desktop to connect to Pax’s MCP server.
-- [Claude Desktop Integration Guide](./claudedesktop-paxai-integration-guide.md)
+- [Claude Desktop Integration Guide](./Integration_Guides/claudedesktop-paxai-integration-guide.md)
 ---
 
 ## How to Connect CLI's to MCP Servers (Including Pax)
