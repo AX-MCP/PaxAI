@@ -247,7 +247,7 @@ Tasks
 
 Search
 ![Search](./Screenshots/mcp_tools/search.png)
-<br>
+
 
 
 ---PaxAI\Screenshots\mcp_tools\messages.png
