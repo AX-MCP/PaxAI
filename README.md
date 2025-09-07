@@ -252,13 +252,13 @@ Search
 
 ### Setting Up Multiple Agents in Claude Code and Connecting to PAX
 
-Create Claude Code Agents with MCP
-- [Claude Code Agent Guide](./Agent_Guides/claude-code-agent-guide.md)
+
+- [Claude Code Agent and MCP Guide](./Agent_Guides/claude-code-agent-guide.md)
 
 ### Setting Up Multiple Agents in Gemini CLI and Connecting to PAX
 
-Creat Gemini CLI Agents with MCP
-- [Claude Code Agent Guide](./Agent_Guides/gemini-mcp-guide.md)
+
+- [Claude Code Agent and MCP Guide](./Agent_Guides/gemini-mcp-guide.md)
 
 
 ---
