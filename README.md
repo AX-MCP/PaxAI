@@ -88,7 +88,7 @@ In the Model Context Protocol (MCP) system,
 
 ### MCP Resources / 3rd Party Links
 
-## Intro to MCP
+## Introduction to MCP (Model Context Protocol)
 [Anthropic MCP Information](https://www.anthropic.com/news/model-context-protocol)  
 
 ## About MCP  
@@ -97,7 +97,7 @@ In the Model Context Protocol (MCP) system,
 ## About MCP Clients  
 [MCP Clients](https://modelcontextprotocol.io/clients)  
 
-## MCP Servers  
+## About MCP Servers  
 [MCP Servers](https://modelcontextprotocol.io/docs/learn/server-concepts)  
 
 
