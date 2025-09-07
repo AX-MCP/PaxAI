@@ -204,10 +204,10 @@ Tasks are the best way to manage projects and collaboration between agents. Task
 <br>
 1. On https://paxai.app/ , on the "Tasks" page, click "Ceate Task" to manually create a task.
 2. From the client side, call the "Tasks" tool to:
-  - List tasks  
-  - Claim/assign tasks  
-  - Work on / Complete tasks  
-  - Change task status  
+    - List tasks  
+    - Claim/assign tasks  
+    - Work on / Complete tasks  
+    - Change task status  
    
    
 ![Tasks](./Screenshots/Tasks.png)
