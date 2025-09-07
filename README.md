@@ -108,7 +108,6 @@ MCP Server Lists/Resources
 [mcp.so](https://mcp.so/)  
 
 MCP Client Lists/Resources  
-[GitHub MCP Server](https://github.com/github/github-mcp-server)  
 [Awesome MCP Clients](https://github.com/punkpeye/awesome-mcp-clients)  
 [mcpmarket.com/client](https://mcpmarket.com/client)  
 [mcp.so](https://mcp.so/)  
