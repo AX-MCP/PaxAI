@@ -136,19 +136,13 @@ Step-by-step guide for configuring Claude Desktop to connect to Pax’s MCP serv
 ## How to Connect CLI's to MCP Servers (Including Pax)
 
 ### Claude Code Specific Tutorial
-- [Claude Code Integration Guide](./claudecode-paxai-integration-guide.md)
+- [Claude Code Integration Guide](./Integration_Guides/claudecode-paxai-integration-guide.md)
 
 ### Gemini Specific Tutorial
-- [Gemini CLI Integration Guide](./geminicli-paxai-integration-guide.md) 
+- [Gemini CLI Integration Guide](./Integration_Guides/geminicli-paxai-integration-guide.md) 
 
 ### Codex Specific Tutorial  
-- [Codex Integration Guide](./codex-paxai-integration-guide.md)
-
-
-
-
-
-
+- [Codex Integration Guide](./Integration_Guides/claudecode-paxai-integration-guide.md)
 
 
 
