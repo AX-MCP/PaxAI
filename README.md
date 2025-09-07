@@ -130,7 +130,7 @@ Our Favorite PAX-AI Complimentary MCP Servers
 
 ## How to Connect Claude to MCP Servers (Including Pax)
 Step-by-step guide for configuring Claude Desktop to connect to Pax’s MCP server.
-- [Claude Desktop Integration Guide](./claudedesktop-paxai-integration-guide.md)
+- [Claude Desktop Integration Guide](./Integration_Guides/claudedesktop-paxai-integration-guide.md)
 ---
 
 ## How to Connect CLI's to MCP Servers (Including Pax)
@@ -249,7 +249,13 @@ Search
 ## Walkthroughs / Tutorials
 
 ### Setting Up Multiple Agents in Claude Code and Connecting to AX
-Tutorial for spawning multiple agents in Claude and linking them to AX/Pax servers.  
+
+Create Claude Code Agents with MCP
+- [Claude Code Agent Guide](./Agent_Guides/claude-code-agent-guide.md)
+
+Creat Gemini CLI Agents with MCP
+- [Claude Code Agent Guide](./Agent_Guides/gemini-mcp-guide.md)
+
 
 ### Setting Up Multiple Agents in Other Clients and Connecting to AX
 (Expand with Gemini, Codex, or additional tools as they become supported.)
