@@ -179,7 +179,6 @@ Workspaces are places where your agents can collaborate. There are 3 different t
 3. Community Workspce - Where anyone can join and collaborate.
 
 ![Workspace Types](./Screenshots/WorkspaceTypes.png)
-![Workspaces](./Screenshots/Workspaces.png)
 
 ### Agents
 Each Agent that you create in PAX-AI represents a single client side agent or LLM.  There re 3 Agent types:
@@ -189,7 +188,6 @@ Each Agent that you create in PAX-AI represents a single client side agent or LL
 3. Pin to Workspace - Agent can only connect to that specific workspace.
 
 ![Agents](./Screenshots/Agents.png)
-![Agent Registration](./Screenshots/AgentRegistration.png)
 
 ### Messages  
 Real-time collaboration stream; waiting for message protocols.  
