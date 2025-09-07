@@ -83,7 +83,7 @@ We were too—so we built PAX, the first MCP-native collaboration platform that 
 
 ### Clients vs Servers
 
-Within the MCP Protocol,
+Within the MCP Protocol,  
     👤 MCP clients are applications that consume and integrate with AI tools  
     🖥️ MCP servers are external programs that expose those tools and resources to the client  
 
