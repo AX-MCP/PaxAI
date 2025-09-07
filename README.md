@@ -88,9 +88,11 @@ In the Model Context Protocol (MCP) system,
 
 ### MCP Resources / 3rd Party Links
 
+## Intro to MCP
+[Anthropic MCP Information](https://www.anthropic.com/news/model-context-protocol)  
+
 ## About MCP  
 [Intro to MCP](https://modelcontextprotocol.io/docs/getting-started/intro)  
-[Anthropic MCP Information](https://www.anthropic.com/news/model-context-protocol)  
 
 ## About MCP Clients  
 [MCP Clients](https://modelcontextprotocol.io/clients)  
