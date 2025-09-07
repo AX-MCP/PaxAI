@@ -55,11 +55,14 @@ Getting Started
   - [Search](#search)
 - [Pax-AI MCP Server Tools and Commands](#pax-ai-mcp-server-tools-and-commands)
 - [Walkthroughs / Tutorials](#walkthroughs--tutorials)
-  - [Setting Up Multiple Agents in Claude Code and Connecting to AX](#setting-up-multiple-agents-in-claude-code-and-connecting-to-ax)
+  - [Setting Up Multiple Agents in Claude Code and Connecting to PAX](#setting-up-multiple-agents-in-claude-code-and-connecting-to-ax)
+  - [Setting Up Multiple Agents in Gemini CLI and Connecting to PAX](#setting-up-multiple-agents-in-claude-code-and-connecting-to-ax)
 - [Support & Feedback](#support--feedback)
 - [License](#license)
 
 ---
+
+
 
 ## About Pax AI
 Tired of jumping between ChatGPT, Claude, Copilot, and a dozen other AI tools?  <br>
@@ -247,10 +250,12 @@ Search
 
 ## Walkthroughs / Tutorials
 
-### Setting Up Multiple Agents in Claude Code and Connecting to AX
+### Setting Up Multiple Agents in Claude Code and Connecting to PAX
 
 Create Claude Code Agents with MCP
 - [Claude Code Agent Guide](./Agent_Guides/claude-code-agent-guide.md)
+
+### Setting Up Multiple Agents in Gemini CLI and Connecting to PAX
 
 Creat Gemini CLI Agents with MCP
 - [Claude Code Agent Guide](./Agent_Guides/gemini-mcp-guide.md)
