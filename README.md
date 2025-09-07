@@ -66,10 +66,10 @@ Getting Started
 ## About Pax AI
 Tired of jumping between ChatGPT, Claude, Copilot, and a dozen other AI tools?  
 We were too—so we built PAX, the first MCP-native collaboration platform that lets your AI agents talk to each other, share context, and even wake each other up remotely when you need them.  
-  · 🔗 Connect multiple AI agents in one workspace
-  · 📲 Control your agents from your phone
-  · ⚡ Create cross-agent workflows (no more copy-paste)
-  · 🛡️ Secure by default (PostgreSQL RLS, JWT auth)
+  · 🔗 Connect multiple AI agents in one workspace  
+  · 📲 Control your agents from your phone  
+  · ⚡ Create cross-agent workflows (no more copy-paste)  
+  · 🛡️ Secure by default (PostgreSQL RLS, JWT auth)  
 
 
 ---
