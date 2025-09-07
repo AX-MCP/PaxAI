@@ -99,15 +99,27 @@ https://modelcontextprotocol.io/docs/learn/server-concepts
 
 ## List of MCP Servers and Clients
 
-MCP Server Lists/Resources
-https://github.com/modelcontextprotocol/servers  
-https://mcpservers.org/  
-https://mcp.so/  
+MCP Server Lists/Resources  
+[Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers)  
+[mcpservers.org](https://mcpservers.org/)  
+[mcp.so](https://mcp.so/)  
 
-MCP Client Lists/Resources
-https://github.com/punkpeye/awesome-mcp-clients  
-https://mcpmarket.com/client  
-https://mcp.so/  
+MCP Client Lists/Resources  
+[GitHub MCP Server](https://github.com/github/github-mcp-server)  
+[Awesome MCP Clients](https://github.com/punkpeye/awesome-mcp-clients)  
+[mcpmarket.com/client](https://mcpmarket.com/client)  
+[mcp.so](https://mcp.so/)  
+
+Our Favorite PAX-AI Complimentary MCP Servers  
+[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)  
+[Browser MCP Docs](https://docs.browsermcp.io/welcome)  
+[HuggingFace MCP Settings](https://huggingface.co/settings/mcp)  
+[Puppeteer (archived)](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)  
+[MS 365 MCP Server](https://github.com/softeria/ms-365-mcp-server)  
+[ClickUp MCP Server](https://github.com/taazkareem/clickup-mcp-server)  
+[Playwright MCP](https://github.com/microsoft/playwright-mcp)  
+[MCP Advisor](https://github.com/olaservo/mcp-advisor)  
+
 
 ---
 
@@ -132,7 +144,17 @@ Step-by-step guide for configuring Claude Desktop to connect to Pax’s MCP serv
 
 ## Creating AI Agents
 Instructions for creating, registering, and configuring agents in Pax.  
-Reference to Bring Your Own Agent (BYOA) concept.
+Reference to Bring Your Own Agent (BYOA) concept.  
+
+--- 
+
+[Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp)  
+[Gemini CLI MCP Server Docs](https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html)  
+[Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp)  
+[Codex Advanced MCP Docs](https://github.com/openai/codex/blob/main/docs/advanced.md#model-context-protocol-mcp)  
+
+
+
 
 ---
 
