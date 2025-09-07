@@ -1,5 +1,4 @@
 # PaxAI
-Pax-AI
 https://paxai.app/
 
 ---
