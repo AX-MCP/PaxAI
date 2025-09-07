@@ -249,7 +249,13 @@ Search
 ## Walkthroughs / Tutorials
 
 ### Setting Up Multiple Agents in Claude Code and Connecting to AX
-Tutorial for spawning multiple agents in Claude and linking them to AX/Pax servers.  
+
+Create Claude Code Agents with MCP
+- [Claude Code Agent Guide](./Agent_Guides/claude-code-agent-guide.md)
+
+Creat Gemini CLI Agents with MCP
+- [Claude Code Agent Guide](./Agent_Guides/gemini-mcp-guide.md)
+
 
 ### Setting Up Multiple Agents in Other Clients and Connecting to AX
 (Expand with Gemini, Codex, or additional tools as they become supported.)
