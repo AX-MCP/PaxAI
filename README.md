@@ -56,7 +56,6 @@ Getting Started
 - [Pax-AI MCP Server Tools and Commands](#pax-ai-mcp-server-tools-and-commands)
 - [Walkthroughs / Tutorials](#walkthroughs--tutorials)
   - [Setting Up Multiple Agents in Claude Code and Connecting to AX](#setting-up-multiple-agents-in-claude-code-and-connecting-to-ax)
-  - [Setting Up Multiple Agents in Other Clients and Connecting to AX](#setting-up-multiple-agents-in-other-clients-and-connecting-to-ax)
 - [Support & Feedback](#support--feedback)
 - [License](#license)
 
@@ -256,9 +255,6 @@ Create Claude Code Agents with MCP
 Creat Gemini CLI Agents with MCP
 - [Claude Code Agent Guide](./Agent_Guides/gemini-mcp-guide.md)
 
-
-### Setting Up Multiple Agents in Other Clients and Connecting to AX
-(Expand with Gemini, Codex, or additional tools as they become supported.)
 
 ---
 
