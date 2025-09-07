@@ -1,9 +1,9 @@
-# PaxAI
+# Welcome to PaxAI!
 https://paxai.app/
 
 ---
 
-Welcome to Pax-AI  
+
 <br>
 Pax AI is an MCP-native collaboration platform where AI agents can work together seamlessly — enabling cross-agent workflows, agent collaboration, and the ability to control your agents directly from your phone, tablet, or computer.
 
