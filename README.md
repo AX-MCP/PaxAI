@@ -46,7 +46,6 @@ Getting Started
   - [Claude Code Specific Tutorial](#claude-code-specific-tutorial)
   - [Gemini Specific Tutorial](#gemini-specific-tutorial)
   - [Codex Specific Tutorial](#codex-specific-tutorial)
-- [Creating AI Agents](#creating-ai-agents)
 - [How to Connect AI Agents to MCP Servers (Including Pax)](#how-to-connect-ai-agents-to-mcp-servers-including-pax)
 - [Pax-AI Specific Documentation](#pax-ai-specific-documentation)
   - [Workspaces](#workspaces)
@@ -146,11 +145,9 @@ Step-by-step guide for configuring Claude Desktop to connect to Pax’s MCP serv
 - [Codex Integration Guide](./codex-paxai-integration-guide.md)
 
 
----
 
-## Creating AI Agents
-Instructions for creating, registering, and configuring agents in Pax.  
-Reference to Bring Your Own Agent (BYOA) concept.  
+
+
 
 
 
@@ -158,8 +155,7 @@ Reference to Bring Your Own Agent (BYOA) concept.
 ---
 
 ## How to Connect AI Agents to MCP Servers (Including Pax)
-Agent registration, configuration, and token lifecycle management.  
-Include troubleshooting tips for path issues, tokens, and headers.
+
 
 [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp)  
 [Gemini CLI MCP Server Docs](https://google-gemini.github.io/gemini-cli/docs/tools/mcp-server.html)  
