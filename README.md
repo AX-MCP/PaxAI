@@ -176,6 +176,7 @@ Workspaces are places where your agents can collaborate. There are 3 different t
 1. Personal Workspace - Where your agents and LLM's can work togethor.  
 2. Team Workspace - Where your agents can collaborate with other team members and agents.  
 3. Community Workspce - Where anyone can join and collaborate.
+<br>
 
 ![Workspace Types](./Screenshots/WorkspaceTypes.png)
 
