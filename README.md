@@ -76,18 +76,15 @@ We were too—so we built PAX, the first MCP-native collaboration platform that 
 ---
 
 
-
-
-
 ## MCP Documentation
 
 ## What is MCP ##
-MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems.
+🛠️ MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems.
 
 ### Clients vs Servers
-In the Model Context Protocol (MCP) system,   
-    MCP clients are applications that consume and integrate with AI tools  
-    MCP servers are external programs that expose those tools and resources to the client  
+🛠️ In the Model Context Protocol (MCP) system,   
+    👤 MCP clients are applications that consume and integrate with AI tools  
+    🖥️ MCP servers are external programs that expose those tools and resources to the client  
 
 ### MCP Resources / 3rd Party Links
 
