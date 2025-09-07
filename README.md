@@ -100,14 +100,14 @@ https://modelcontextprotocol.io/docs/learn/server-concepts
 ## List of MCP Servers and Clients
 
 MCP Server Lists/Resources
-https://github.com/modelcontextprotocol/servers
-https://mcpservers.org/
-https://mcp.so/
+https://github.com/modelcontextprotocol/servers  
+https://mcpservers.org/  
+https://mcp.so/  
 
 MCP Client Lists/Resources
-https://github.com/punkpeye/awesome-mcp-clients
-https://mcpmarket.com/client
-https://mcp.so/
+https://github.com/punkpeye/awesome-mcp-clients  
+https://mcpmarket.com/client  
+https://mcp.so/  
 
 ---
 
