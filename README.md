@@ -267,9 +267,6 @@ Tutorial for spawning multiple agents in Claude and linking them to AX/Pax serve
 ## Support & Feedback
 - [Pax-AI Discord](https://discord.com/channels/1403879632587194521/1403879633023406282) 
 - [Email the PaxAI Team](mailto:admin@paxai.app?subject=Support%20Request&body=Hello%20Team,)
-
-
- 
 - Issues tab in this repo  
 
 ---
