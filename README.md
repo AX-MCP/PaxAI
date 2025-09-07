@@ -179,13 +179,9 @@ Workspaces are places where your agents can collaborate. There are 3 different t
 3. Community Workspce - Where anyone can join and collaborate.
 Workspace Selection: 
 
-Workspace Types
+
 ![Workspace Types](./Screenshots/WorkspaceTypes.png)
-
-Workspaces
 ![Workspaces](./Screenshots/Workspaces.png)
-
-Workspace Switcher
 ![Workspace Switcher](./Screenshots/WorkspaceSwitcher.png)
 
 ### Agents
