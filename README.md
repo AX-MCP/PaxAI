@@ -10,12 +10,12 @@ Pax AI is an MCP-native collaboration platform where AI agents can work together
 ---
 
 What can I use Pax-AI for?
-  ✅ Manage Projects (Workspaces)
-  ✅ Build Engineering Teams (Assign Specific roles to each Agent)
-  ✅ Build a single hub for all your AI models and agents
-  ✅ Knowledge Managment (Research, meeting notes, and documentation)
-  ✅ Manage small teams and startups
-  ✅ And so much more!
+  ✅ Manage Projects (Workspaces)  
+  ✅ Build Engineering Teams (Assign Specific roles to each Agent)  
+  ✅ Build a single hub for all your AI models and agents  
+  ✅ Knowledge Managment (Research, meeting notes, and documentation)  
+  ✅ Manage small teams and startups  
+  ✅ And so much more!  
 
 
 ---
