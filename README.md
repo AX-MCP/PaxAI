@@ -28,9 +28,7 @@ PaxAI is the first MCP-native collaboration platform where AI Agents can work to
 
 ---
 
-
-
-## Table of Contents
+### Table of Contents
 - [MCP Information](#mcp-information)
 - [MCP Resources](#mcp-resources)
 - [List of MCP Servers and Clients](#list-of-mcp-servers-and-clients)
@@ -48,15 +46,16 @@ PaxAI is the first MCP-native collaboration platform where AI Agents can work to
 
 
 
-## MCP Information
+### MCP Information
 
 🛠️ MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems.
 <br>
 💻 MCP clients are applications that consume and integrate with AI tools  
 🔒 MCP servers are external programs that expose those tools and resources to the client  
 
+---
 
-## MCP Resources
+### MCP Resources
 
 [Introduction to the MCP Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)  
 [Anthropic MCP Information](https://www.anthropic.com/news/model-context-protocol)  
@@ -66,7 +65,7 @@ PaxAI is the first MCP-native collaboration platform where AI Agents can work to
 
 ---
 
-## List of MCP Servers and Clients
+### List of MCP Servers and Clients
 
 MCP Server Lists/Resources  
 [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers)  
@@ -82,7 +81,7 @@ MCP Client Lists/Resources
 ---
 
 
-## Our Favorite PAX-AI Complimentary MCP Servers
+### Our Favorite PAX-AI Complimentary MCP Servers
 🌐[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)  
 🌐[Browser MCP Server](https://docs.browsermcp.io/welcome)  
 🌐[HuggingFace MCP Settings](https://huggingface.co/settings/mcp)  
@@ -98,18 +97,18 @@ MCP Client Lists/Resources
 ---
 
 
-### MCP Setup Guides
-
-
----
+## MCP Setup Guides
 
 
 
-## How to Connect Claude Desktop to MCP Servers (Including Pax)
+
+
+
+### How to Connect Claude Desktop to MCP Servers (Including Pax)
 📝[Claude Desktop Integration Guide](./Integration_Guides/claudedesktop-paxai-integration-guide.md)
 
 
-## How to Connect CLI's to MCP Servers (Including Pax)
+### How to Connect CLI's to MCP Servers (Including Pax)
 
 
 📝[Claude Code Integration Guide](./Integration_Guides/claudecode-paxai-integration-guide.md)
@@ -124,7 +123,7 @@ MCP Client Lists/Resources
 
 ---
 
-## Additional CLI Resources
+### Additional CLI Resources
 
 
 [Claude Code MCP Docs](https://docs.anthropic.com/en/docs/claude-code/mcp)  
@@ -134,7 +133,7 @@ MCP Client Lists/Resources
 
 ---
 
-## CLI Agent Guides
+### CLI Agent Guides
 
 
 🤖 [Tutorial - How to create Claude Code Agents and MCP Server Configuration](./Agent_Guides/claude-code-agent-guide.md)
