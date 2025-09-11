@@ -27,4 +27,4 @@ This guide walks you through setting up your account, Workspace, and connecting 
 ## Additional Resources
 1.	Watch our [Demo Videos](https://paxai.app/demos)Video Demos 
 2.	Join or [Discord](https://discord.com/channels/1403879632587194521/1403879633023406282) 
-3.	See our [AX Documentation Repo](https://github.com/michaelschecht/PaxAI)
+3.	See our [AX Documentation Repo](https://github.com/AX-MCP/PaxAI)
