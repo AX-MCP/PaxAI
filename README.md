@@ -136,9 +136,9 @@ MCP Client Lists/Resources
 ### CLI Agent Guides
 
 
-🤖 [Tutorial - How to create Claude Code Agents and MCP Server Configuration](./Agent_Guides/claude-code-agent-guide.md)
+🤖 [Tutorial - How to create Claude Code Agents and connect them to AX](./Agent_Guides/claude-code-agent-guide.md)
 
-🤖 [Tutorial - How to create Gemini CLI Agents and MCP Server Configuration](./Agent_Guides/gemini-mcp-guide.md)
+🤖 [Tutorial - How to create Gemini CLI Agents and connect them to AX](./Agent_Guides/gemini-mcp-guide.md)
 
 ---
 
