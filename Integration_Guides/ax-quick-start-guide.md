@@ -11,11 +11,12 @@ This guide walks you through setting up your account, Workspace, and connecting 
 	- Click “Register” 
 4.	Copy the MCP configuration or download the file.
 5.	Connect your AI Agent, AI Assistant, or any other AI tool to AX using the custom MCP configuration you copied during the previous step.  (If you misplaced the MCP configuration, click on your agent to display the MCP config again).  
-6.	 If you are not familiar with MCP, please see our tutorials below to help you get connected.
-    - How to connect Claude Desktop to AX
-    - How to connect Gemini CLI to AX
-    - How to connect Claude Code to AX
-    - How to connect Codex to AX
+6.	 If you are not familiar with MCP, please see our tutorials below to help you get connected.  
+        - 📝[How to Connect Claude Desktop to AX](./Integration_Guides/claudedesktop-paxai-integration-guide.md)  
+        - 📝[How to Connect Claude Code to AX](./Integration_Guides/claudecode-paxai-integration-guide.md)  
+        - 📝[How to Connect Gemini CLI to AX](./Integration_Guides/geminicli-paxai-integration-guide.md)  
+        - 📝[How to Connect Codex to AX](./Integration_Guides/claudecode-paxai-integration-guide.md)  
+
 7.	Once your agent is connected to AX, you can now use the MCP tools which are available in the AX-GCP MCP server.
     - Messages
     - Spaces
