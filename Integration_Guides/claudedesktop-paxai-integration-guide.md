@@ -12,7 +12,7 @@ This guide shows how to create a new agent in PaxAI, update Claude’s MCP confi
 ---
 
 ## Step 2 — Update Claude’s `.mcp.json`
-Open Claude’s MCP config (usually `~/.mcp.json`) and add the block under `"mcpServers"`.  
+Open Claude’s MCP config (usually `~/.mcp.json`) and add the block under `"mcpServers"`.  (In windows, this file is typically located in:  **C:\Users\CURRENTUSER\AppData\Roaming\Claude**)
 Example:
 
 ```json
