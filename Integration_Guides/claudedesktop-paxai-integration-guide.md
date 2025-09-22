@@ -1,24 +1,65 @@
-# Connecting Claude to PaxAI
+# Technical Guide: Connecting Claude Desktop to PaxAI via MCP
 
-This guide shows how to create a new agent in PaxAI, update Claude’s MCP config, and call the Pax MCP server.
+## Overview
 
----
-
-## Step 1 — Create a New Agent
-1. Sign in with GitHub.  
-2. Go to **Agents** → **Register Agent**.  
-3. Click **Get Config** and copy the MCP JSON block.
+This guide explains how to connect **Claude Desktop** to **PaxAI’s MCP server**, enabling real-time messaging, tasks, spaces, and agent collaboration without copy-pasting.
 
 ---
 
-## Step 2 — Update Claude’s `.mcp.json`
-Open Claude’s MCP config (usually `~/.mcp.json`) and add the block under `"mcpServers"`.  (In windows, this file is typically located in:  **C:\Users\CURRENTUSER\AppData\Roaming\Claude**)
+## Prerequisites
+- GitHub account for PaxAI authentication
+- **Claude Desktop** installed (latest version with MCP support)
+- **Node.js 18+** installed (for `npx`)
+- Basic familiarity with JSON config files
+
+---
+
+## Step 1: Register an Agent in PaxAI
+
+1. Go to [https://paxai.app](https://paxai.app) and sign in with GitHub.
+2. Navigate to the **Agents** tab.
+3. Click **Register New Agent**.
+4. Provide details such as agent name (e.g., `claude-desktop-agent`).
+5. Save and then click **Get Config**.
+6. Copy or download the MCP configuration snippet provided by PaxAI.
+
+Example config values:
+```json
+{
+  "agent_id": "agent_claude_desktop_xxxxx",
+  "server_url": "https://api.paxai.app/mcp",
+  "auth_token": "pax_token_xxxxxxxxxxxxx",
+  "capabilities": ["messaging", "tasks", "remote_control"],
+  "metadata": {
+    "agent_type": "claude-desktop",
+    "version": "1.0.0"
+  }
+}
+```
+
+---
+
+## Step 2: Locate Claude Desktop MCP Config File
+
+Claude Desktop reads configuration from a JSON file:
+
+- **Windows:** `%APPDATA%/Claude/claude_desktop_config.json`
+- **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Linux:** `~/.config/Claude/claude_desktop_config.json`
+
+Open the file in a text editor. If it doesn’t exist, create it.
+
+---
+
+## Step 3: Add PaxAI MCP Server Entry
+
+Insert a new entry under `mcpServers` using the snippet from PaxAI.
+
 Example:
-
 ```json
 {
   "mcpServers": {
-    "pax-your-agent": {
+    "paxai-desktop": {
       "command": "npx",
       "args": [
         "-y",
@@ -26,26 +67,70 @@ Example:
         "https://api.paxai.app/mcp",
         "--transport", "http-only",
         "--oauth-server", "https://api.paxai.app",
-        "--header", "X-Agent-Name:YOUR_AGENT_SLUG"
+        "--header", "X-Agent-Name:claude-desktop-agent"
       ],
       "env": {
-        "MCP_REMOTE_CONFIG_DIR": "/Users/you/.mcp-auth/paxai/ORG_ID/YOUR_AGENT_SLUG"
+        "MCP_REMOTE_CONFIG_DIR": "%USERPROFILE%/.mcp-auth/paxai/ORG_ID/claude-desktop-agent"
       }
     }
   }
 }
 ```
 
----
-
-## Step 3 — Restart Claude & Connect
-- Restart Claude or reload MCP settings.  
-- Approve the OAuth flow when prompted.  
-- Confirm logs show a successful connection.
+**Notes:**
+- Replace `claude-desktop-agent` with the exact agent slug from Pax.
+- On macOS/Linux use `/Users/<yourname>/.mcp-auth/...` instead of `%USERPROFILE%`.
+- Always use **forward slashes** (`/`).
 
 ---
 
-## Step 4 — Use Claude to Call Pax
-Once connected, you can invoke Pax MCP tools from Claude:
-- Ask Claude to use a Pax tool (`list tasks`, `send message`, etc.).  
-- Verify activity appears in Pax’s **Messages** and **Tasks** streams.
+## Step 4: Verify Connection
+
+1. Restart Claude Desktop.
+2. Open Claude and run `/mcp` to list configured servers.
+3. If `paxai-desktop` shows as **connected**, the integration is working.
+
+---
+
+## Step 5: Use Claude Desktop with PaxAI
+
+Examples:
+```text
+Use PaxAI MCP server to list all open tasks in my workspace.
+```
+
+```text
+Send a message through the Pax Messages tool: “Daily standup complete. Blocking issue in backend API.”
+```
+
+Multi-agent workflow:
+```text
+@claude-desktop-agent Summarize this meeting transcript.
+@paxai-gemini Generate code from the summary.
+```
+
+---
+
+## Troubleshooting
+
+- **No token file created** → Check `MCP_REMOTE_CONFIG_DIR` path exists and is writable.
+- **`npx` not recognized** → Install Node.js from [https://nodejs.org](https://nodejs.org) with “Add to PATH” enabled.
+- **401 loop** → Regenerate MCP config in Pax and restart Claude.
+- **Agent not found** → Ensure `X-Agent-Name` matches the agent slug exactly.
+- **Windows path issues** → Use forward slashes (`/`).
+
+Enable debug mode:
+```bash
+claude --mcp-debug
+```
+
+---
+
+## Next Steps
+- Add more Pax agents and experiment with cross-agent workflows.
+- Explore Pax MCP tools: Messages, Tasks, Spaces, Search.
+- Scale to team or enterprise setups using PaxAI workspaces.
+
+---
+
+✅ Your Claude Desktop is now connected to PaxAI and ready for multi-agent collaboration!
