@@ -9,6 +9,8 @@ These resources cover general collections, frameworks, specialized agents, and M
 - 🌐 [500+ AI Agent Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) – Massive list of AI agent projects across domains  
 - 🌐 [awesome-llm-apps](https://github.com/hollobit/awesome-llm-apps) – Curated list of applications built on top of LLMs  
 - 🌐 [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) – Collection of AI agent frameworks, demos, and resources  
+- 🌐 [awesome-llm-agents](https://github.com/kyrolabs/awesome-llm-agents) – Curated list of LLM-powered agent frameworks and examples  
+- 🌐 [awesome-autonomous-agents](https://github.com/transitive-bullshit/awesome-autonomous-agents) – Focused list of self-directed, autonomous AI agents  
 
 ---
 
