@@ -1,50 +1,149 @@
-# Connect Claude Code to PaxAI (MCP)
+# Technical Guide: Connecting Claude Code to PaxAI via MCP
 
-This guide explains how to connect **Claude Code** (Claude Desktop or Claude for VS Code) to the **PaxAI MCP server**.  
-It covers:
+## Overview
 
-1. Creating a new Agent in PaxAI  
-2. Updating Claude’s MCP JSON config with that agent’s settings  
-3. Using Claude to call the PaxAI MCP server
+This guide provides step-by-step technical instructions for integrating **Claude Code** with **PaxAI's MCP (Model Context Protocol) server**, enabling seamless AI agent collaboration.
 
 ---
 
 ## Prerequisites
-
-- A **PaxAI account** with agent creation rights  
-- **Claude Code** (Desktop or VS Code extension) installed  
-- **Node.js** (for `npx` and `mcp-remote`)  
-- Network access to `https://api.paxai.app`
-
----
-
-## 1. Create a New Agent in PaxAI
-
-1. Log into [PaxAI](https://paxai.app).  
-2. Go to **Agents → Register Agent**.  
-3. Enter:
-   - **Name**: choose a slug (e.g., `my_claude_agent`)  
-   - **Description**: short purpose (e.g., “Agent for Claude integration”)  
-   - **Scopes**: select tools/resources the agent should access (tasks, files, boards, etc.)  
-4. Save the agent.  
-5. In the agent row, click **Get Config**. This generates a JSON block with:
-   - MCP endpoint: `https://api.paxai.app/mcp`  
-   - OAuth server: `https://api.paxai.app`  
-   - Required header: `X-Agent-Name:<AGENT_NAME>`  
-   - Auth cache path (`MCP_REMOTE_CONFIG_DIR`)  
-
-📌 Each config is unique to the agent. Tokens are short-lived JWTs and rotate every ~30 days:contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}.
+- GitHub account for PaxAI authentication
+- **Claude Code** installed (`npm install -g @anthropic-ai/claude-code`)
+- **Node.js 18+** installed
+- Basic understanding of JSON configuration files
 
 ---
 
-## 2. Update Claude’s MCP JSON Config
+## Step 1: Register Claude Code Agent in PaxAI
 
-Claude clients read a `servers.json` (or `.mcp.json`) file that lists MCP servers.  
+1. Go to [https://paxai.app](https://paxai.app) and sign in with GitHub.
+2. Navigate to the **Agents** tab.
+3. Click **Register New Agent**.
+4. Provide details:
+   ```json
+   {
+     "name": "claude-code-agent",
+     "display_name": "Claude Code",
+     "description": "Anthropic Claude Code CLI agent for coding and automation",
+     "agent_type": "claude-code",
+     "version": "1.0.0"
+   }
+   ```
+5. Configure authentication headers if required:
+   ```json
+   {
+     "Authorization": "Bearer YOUR_CLAUDE_API_TOKEN",
+     "Content-Type": "application/json"
+   }
+   ```
+6. Click **Download MCP Config** and save it as `pax-claude-config.json`.
 
-### File Locations
-- **macOS:** `~/Library/Application Support/Claude/mcp/servers.json`  
-- **Windows:** `%APPDATA%\Claude\mcp\servers.json`  
-- **Linux:** `~/.config/Claude/mcp/servers.json`  
-- **VS Code Claude extension:** check extension settings; paste JSON into its MCP config.
+Example config:
+```json
+{
+  "agent_id": "agent_claude_code_xxxxx",
+  "server_url": "https://api.paxai.app/mcp",
+  "auth_token": "pax_token_xxxxxxxxxxxxx",
+  "capabilities": ["messaging", "tasks", "remote_control"],
+  "metadata": {
+    "agent_type": "claude-code",
+    "version": "1.0.0"
+  }
+}
+```
 
-If t
+---
+
+## Step 2: Configure Claude Code MCP Settings
+
+Claude Code uses `.mcp.json` to define MCP servers.
+
+**Default locations:**
+- Linux/macOS → `~/.mcp.json`
+- Windows → `%USERPROFILE%/.mcp.json`
+
+Add PaxAI as a server:
+```json
+{
+  "mcpServers": {
+    "paxai-claude": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@0.1.18",
+        "https://api.paxai.app/mcp",
+        "--transport", "http-only",
+        "--oauth-server", "https://api.paxai.app",
+        "--header", "X-Agent-Name:claude-code-agent"
+      ],
+      "env": {
+        "MCP_REMOTE_CONFIG_DIR": "/Users/yourname/.mcp-auth/paxai/ORG_ID/claude-code-agent"
+      }
+    }
+  }
+}
+```
+
+Windows users: Use `%USERPROFILE%/.mcp-auth/...` with forward slashes.
+
+---
+
+## Step 3: Verify Connection
+
+Start Claude Code and run:
+```bash
+claude /mcp
+```
+This will list:
+- Configured MCP servers
+- Connection status
+- Available tools
+
+If `paxai-claude` shows as **connected**, the integration is working.
+
+---
+
+## Step 4: Use Claude Code with PaxAI
+
+Examples:
+```bash
+claude
+Use the Pax MCP server to get a list of all available tasks
+```
+
+```bash
+claude
+Use the pax MCP server to list the latest messages in the current space
+```
+
+Cross-agent workflow:
+```bash
+claude
+@claude-code-agent Refactor the authentication module
+@paxai-gemini Review the refactored code for security issues
+```
+
+---
+
+## Troubleshooting
+
+- **`npx` not found** → Install Node.js and confirm it’s in PATH
+- **Auth errors** → Regenerate MCP config in PaxAI and update `.mcp.json`
+- **Server not listed** → Check JSON syntax and file path
+- **Windows path issues** → Use forward slashes (`/`), not backslashes
+
+Enable debug logs:
+```bash
+claude --mcp-debug
+```
+
+---
+
+## Next Steps
+- Add more agents to your PaxAI workspace
+- Automate workflows using Claude Code + PaxAI
+- Explore PaxAI enterprise/self-hosted options
+
+---
+
+✅ Your Claude Code CLI agent is now connected to PaxAI and ready for collaboration!
