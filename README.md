@@ -1,6 +1,6 @@
-# Welcome to PAX-AI!
+# Welcome to AX Platform!
 
-### Visit us at: https://ax-platform.com/
+### Visit our Website at: https://ax-platform.com/
 ### Or Jump right in here: https://paxai.app/  
 
 ---
