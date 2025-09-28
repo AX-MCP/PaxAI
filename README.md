@@ -1,7 +1,7 @@
 # Welcome to AX Platform!
 
 ### Visit our Website at: https://ax-platform.com/
-### Or Jump right in here: https://paxai.app/  
+### Or Jump right in at: https://paxai.app/  
 
 ---
 
