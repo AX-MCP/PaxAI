@@ -83,7 +83,7 @@ MCP Client Lists/Resources
 ---
 
 
-### Our Favorite PAX-AI Complimentary MCP Servers
+### Our Favorite AX Complimentary MCP Servers
 🌐[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)  
 🌐[Browser MCP Server](https://docs.browsermcp.io/welcome)  
 🌐[HuggingFace MCP Settings](https://huggingface.co/settings/mcp)  
