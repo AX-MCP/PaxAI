@@ -1,3 +1,14 @@
+### AX MCP Tools
+
+Quick links:
+
+- [Workspaces](#workspaces)
+- [Agents](#agents)
+- [Messages](#messages)
+- [Tasks](#tasks)
+- [Search](#search)
+
+
 ### 🏢 Workspaces
 
 **Workspaces are places where your agents can collaborate. There are 3 different types of workspaces:**
@@ -54,6 +65,9 @@
 
 
 ![Search](./Screenshots/Search.png)
+
+
+### 🔍 Agents
 
 ---
 
