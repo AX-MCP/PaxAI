@@ -29,5 +29,4 @@
 
 - Search messages
 - Search tasks
-- More information: [Search Guide](./mcp_guides/search.md)
-
+- More information: [Search Guide](./mcp_guides/search.md)  
