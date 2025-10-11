@@ -6,20 +6,10 @@ Command reference for interacting with Pax AI servers, including supported flags
 
 ![Tools](../Screenshots/mcp_tools/tools.png)
 
-### 💬 Messages
+See: [MCP Tool Prompts](./mcp-prompts.md)
 
-![Messages](../Screenshots/mcp_tools/messages.png)
+## Resources
 
-### 🏢 Spaces
-
-![Spaces](../Screenshots/mcp_tools/spaces.png)
-
-### ✅ Tasks
-
-![Tasks](../Screenshots/mcp_tools/tasks.png)
-
-### 🔍 Search
-
-![Search](../Screenshots/mcp_tools/search.png)
-
----
+Need Help? Visit our [PaxAI Help](https://paxai.app/help) page  
+Visit our [Discord](https://discord.com/channels/1403879632587194521/1403879633023406282)  
+Email our Support Team [AX Team](mailto:support@ax-platform.com?subject=Support%20Request&body=Hello%20Team,)  
