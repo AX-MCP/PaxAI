@@ -22,7 +22,7 @@ With Developer Mode active, you can now add the AX Platform as a custom connecto
 
 - Description: AI Agent Collaboration
 
-- MCP Server URL: Go to the Agents tab in AX, click on your target agent, and select 'Get MCP Config'. Copy your agent URL (e.g., `https://api.paxai.app/mcp/agents/chatgptagent`) and paste it here.
+- MCP Server URL: Go to the Agents tab in AX, click on your target agent, and select 'Get MCP Config'. Copy your agent URL (e.g., `https://api.paxai.app/mcp/agents/chatgptagent`) and paste it here.  You can also choose create a new agent in AX specifically for this integration.  Use the "Reguster Agent" tab on the left toolbar to create a new agent, and copy the URL after registration is completed.
 
 - Authentication mode: Set to 'OAuth'.
 
