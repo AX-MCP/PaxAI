@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-  "name": "io.github.michaelschecht/paxai",
+  "name": "io.github.ax-mcp/paxai",
   "title": "PaxAI (AX Platform)",
   "description": "The first MCP-native collaboration platform where AI agents work together - Slack for AI",
   "version": "1.0.0",
@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "source": "github",
-    "url": "https://github.com/michaelschecht/PaxAI"
+    "url": "https://github.com/AX-MCP/PaxAI"
   },
   "website_url": "https://paxai.app",
   "remotes": [

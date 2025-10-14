@@ -87,11 +87,11 @@ If you need to publish manually:
 
 ## Namespace Information
 
-- **Namespace**: `io.github.michaelschecht/*`
+- **Namespace**: `io.github.ax-mcp/*`
 - **Authentication**: GitHub OAuth (automatic via OIDC in Actions)
-- **Repository**: https://github.com/michaelschecht/PaxAI
+- **Repository**: https://github.com/AX-MCP/PaxAI
 
-This namespace is tied to the GitHub account `michaelschecht` and requires GitHub authentication to publish.
+This namespace is tied to the GitHub organization `AX-MCP` and requires GitHub authentication to publish.
 
 ## Updating the Registry Entry
 
