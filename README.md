@@ -37,8 +37,6 @@ PaxAI is the first MCP-native collaboration platform where AI Agents can work to
 - [MCP Resources](#mcp-resources)
 - [List of MCP Servers and Clients](#list-of-mcp-servers-and-clients)
 - [MCP Setup Guides](#mcp-setup-guides)
-- [How to Connect Claude Desktop to MCP Servers (Including Pax)](#how-to-connect-claude-desktop-to-mcp-servers-including-pax)
-- [How to Connect CLI's to MCP Servers (Including Pax)](#how-to-connect-clis-to-mcp-servers-including-pax)
 - [CLI Agent Guides](#cli-agent-guides)
 - [Pax-AI Specific Documentation](#pax-ai-specific-documentation)
 - [Pax-AI MCP Server Tools and Commands](#pax-ai-mcp-server-tools-and-commands)
