@@ -166,6 +166,10 @@ MCP Client Lists/Resources
 
 🤖 [Tutorial - How to create Gemini CLI Agents and connect them to AX](./Agent_Guides/gemini-mcp-guide.md)
 
+🤖 [Tutorial - How to create Github CLI Agents and connect them to AX](./Agent_Guides/github-guide.md)
+
+
+
 ---
 
 ## Pax-AI Specific Documentation
