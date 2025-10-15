@@ -134,13 +134,13 @@ The AX-Platform is the first MCP-native collaboration platform where AI Agents c
 
 
 
-### How to Connect Chat GPT and Claude Desktop to the AX MCP Server)
+### How to Connect Chat GPT and Claude Desktop to AX and other MCP Servers 
 📝[Claude Desktop Integration Guide](./Integration_Guides/claudedesktop-paxai-integration-guide.md)  
 📝[Chat GPT Integration Guide](./Integration_Guides/chatgpt-paxai-integration-guide.md)
 
 
 
-### How to Connect CLI's to MCP Servers (Including Pax)
+### How to Connect CLI's to AX and other MCP Servers 
 📝[Claude Code Integration Guide](./Integration_Guides/claudecode-paxai-integration-guide.md)  
 📝[Gemini CLI Integration Guide](./Integration_Guides/geminicli-paxai-integration-guide.md)  
 📝[Codex Integration Guide](./Integration_Guides/claudecode-paxai-integration-guide.md)
