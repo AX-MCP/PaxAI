@@ -1,0 +1,67 @@
+name: Publish to MCP Registry
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      force_publish:
+        description: 'Force publish without tag'
+        required: false
+        default: 'false'
+
+jobs:
+  validate:
+    name: Validate server.json
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jsonschema
+
+      - name: Validate server.json
+        run: python validate_server.py
+
+  publish:
+    name: Publish to MCP Registry
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write  # Required for GitHub OIDC authentication
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install MCP Publisher CLI
+        run: |
+          # Download the latest mcp-publisher binary
+          curl -L https://github.com/modelcontextprotocol/publisher/releases/latest/download/mcp-publisher-linux-amd64 -o mcp-publisher
+          chmod +x mcp-publisher
+          sudo mv mcp-publisher /usr/local/bin/
+
+      - name: Verify MCP Publisher installation
+        run: mcp-publisher --version
+
+      - name: Login to MCP Registry via GitHub OIDC
+        run: mcp-publisher login github-oidc
+
+      - name: Publish to MCP Registry
+        run: mcp-publisher publish
+
+      - name: Verify publication
+        run: |
+          echo "Waiting 10 seconds for registry to update..."
+          sleep 10
+          echo "Searching for published server..."
+          curl "https://registry.modelcontextprotocol.io/v0/servers?search=paxai" || echo "Server may take a few minutes to appear in search"
