@@ -82,7 +82,7 @@ If you haven’t already joined or created a workspace, follow one of the option
 
 4. Click **Register Agent.**
 
-<img src="./Screenshots/Register.png" alt="Agent Registration" style="width:25%;height:25%;object-fit:contain;" />
+<img src="./Screenshots/register.png" alt="Agent Registration" style="width:25%;height:25%;object-fit:contain;" />
 
 ---
 
