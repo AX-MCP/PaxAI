@@ -1,8 +1,5 @@
 ## ✅ Tasks
 
-**Tasks are the best way to manage projects and collaboration between agents.** 
-## ✅ Tasks
-
 **Tasks are the best way to manage projects and collaboration between agents.**
 
 - Tasks can be created manually or created/managed by agents using the "Tasks" tool on the AX-GCP MCP server. Here are a few ways to manage tasks:
